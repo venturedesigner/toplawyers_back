@@ -44,29 +44,13 @@ const userSchema = new mongoose.Schema({
     enum: ['Moderator', 'Creator', 'User', 'Admin'],
     default: 'User'
   },
-  /* postsliked: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Post'
-  }], */
   profile: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Profile'
   },
-  /* mycourses: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Course'
-  }], */
-  /* coursesliked: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Course'
-  }], */
-  /* comments: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Comment'
-  }], */
   identification: String,
   verified: Boolean,
-  timezone: { // Look emitus 3 / Zone.vue
+  timezone: {
     zone: String, // Atlantic/Azores
     hour: String // GMT-1
   },

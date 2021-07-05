@@ -1,0 +1,1552 @@
+{
+  "data": [
+      {
+          "zone": "Pacific/Midway",
+          "hour": "GMT-11",
+          "country": "United States",
+          "cities": "Midway"
+      },
+      {
+          "zone": "Pacific/Niue",
+          "hour": "GMT-11",
+          "country": "Niue",
+          "cities": "Alofi"
+      },
+      {
+          "zone": "Pacific/Pago_Pago",
+          "hour": "GMT-11",
+          "country": "American Samoa",
+          "cities": "Pago Pago, Tafuna, Tau, Taulaga"
+      },
+      {
+          "zone": "America/Adak",
+          "hour": "GMT-10",
+          "country": "United States",
+          "cities": "Adak"
+      },
+      {
+          "zone": "Pacific/Honolulu",
+          "hour": "GMT-10",
+          "country": "United States",
+          "cities": "Honolulu, East Honolulu"
+      },
+      {
+          "zone": "Pacific/Rarotonga",
+          "hour": "GMT-10",
+          "country": "Cook Islands",
+          "cities": "Avarua, Rarotonga"
+      },
+      {
+          "zone": "Pacific/Tahiti",
+          "hour": "GMT-10",
+          "country": "French Polynesia",
+          "cities": "Faaa, Papeete, Punaauia, Pirae, Mahina"
+      },
+      {
+          "zone": "Pacific/Marquesas",
+          "hour": "GMT-9:30",
+          "country": "French Polynesia",
+          "cities": "Taiohae"
+      },
+      {
+          "zone": "America/Anchorage",
+          "hour": "GMT-9",
+          "country": "United States",
+          "cities": "Anchorage, Fairbanks, Eagle River, Badger"
+      },
+      {
+          "zone": "America/Juneau",
+          "hour": "GMT-9",
+          "country": "United States",
+          "cities": "Juneau (US)"
+      },
+      {
+          "zone": "America/Metlakatla",
+          "hour": "GMT-9",
+          "country": "United States",
+          "cities": "Metlakatla (US)"
+      },
+      {
+          "zone": "America/Nome",
+          "hour": "GMT-9",
+          "country": "United States",
+          "cities": "Nome (US)"
+      },
+      {
+          "zone": "America/Sitka",
+          "hour": "GMT-9",
+          "country": "United States",
+          "cities": "Sitka, Ketchikan"
+      },
+      {
+          "zone": "America/Yakutat",
+          "hour": "GMT-9",
+          "country": "United States",
+          "cities": "Yakutat (US)"
+      },
+      {
+          "zone": "Pacific/Gambier",
+          "hour": "GMT-9",
+          "country": "French Polynesia",
+          "cities": "Gambier"
+      },
+      {
+          "zone": "America/Los_Angeles",
+          "hour": "GMT-8",
+          "country": "United States",
+          "cities": "Los Angeles, San Francisco, Seattle"
+      },
+      {
+          "zone": "America/Tijuana",
+          "hour": "GMT-8",
+          "country": "Mexico",
+          "cities": "Tijuana, Mexicali, Ensenada, Tecate"
+      },
+      {
+          "zone": "America/Vancouver",
+          "hour": "GMT-8",
+          "country": "Canada",
+          "cities": "Vancouver, Surrey, Victoria, Burnaby"
+      },
+      {
+          "zone": "Pacific/Pitcairn",
+          "hour": "GMT-8",
+          "country": "Pitcairn",
+          "cities": "Adamstown"
+      },
+      {
+          "zone": "America/Boise",
+          "hour": "GMT-7",
+          "country": "United States",
+          "cities": "Boise, Meridian, Nampa,Pocatello"
+      },
+      {
+          "zone": "America/Cambridge_Bay",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Cambridge Bay"
+      },
+      {
+          "zone": "America/Chihuahua",
+          "hour": "GMT-7",
+          "country": "Mexico",
+          "cities": "Chihuahua, Ciudad Delicias, Cuauhtémoc"
+      },
+      {
+          "zone": "America/Creston",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Creston (CA)"
+      },
+      {
+          "zone": "America/Dawson",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Dawson (CA)"
+      },
+      {
+          "zone": "America/Dawson_Creek",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Fort St. John, Dawson Creek"
+      },
+      {
+          "zone": "America/Denver",
+          "hour": "GMT-7",
+          "country": "United States",
+          "cities": "Denver, El Paso, Albuquerque, Colorado"
+      },
+      {
+          "zone": "America/Edmonton",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Calgary, Edmonton, Fort McMurray"
+      },
+      {
+          "zone": "America/Fort_Nelson",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Fort Nelson (CA)"
+      },
+      {
+          "zone": "America/Hermosillo",
+          "hour": "GMT-7",
+          "country": "Mexico",
+          "cities": "Hermosillo, Ciudad Obregón, Nogales"
+      },
+      {
+          "zone": "America/Inuvik",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Inuvik"
+      },
+      {
+          "zone": "America/Mazatlan",
+          "hour": "GMT-7",
+          "country": "Mexico",
+          "cities": "Culiacán, Mazatlán, Tepic, La Paz"
+      },
+      {
+          "zone": "America/Ojinaga",
+          "hour": "GMT-7",
+          "country": "Mexico",
+          "cities": "Juárez, Manuel Ojinaga, Ojinaga"
+      },
+      {
+          "zone": "America/Phoenix",
+          "hour": "GMT-7",
+          "country": "United States",
+          "cities": "Phoenix, Tucson, Mesa, Gilbert"
+      },
+      {
+          "zone": "America/Whitehorse",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Whitehorse"
+      },
+      {
+          "zone": "America/Yellowknife",
+          "hour": "GMT-7",
+          "country": "Canada",
+          "cities": "Yellowknife"
+      },
+      {
+          "zone": "America/Bahia_Banderas",
+          "hour": "GMT-6",
+          "country": "Mexico",
+          "cities": "Mezcales, San Vicente, Bucerías"
+      },
+      {
+          "zone": "America/Belize",
+          "hour": "GMT-6",
+          "country": "Belize",
+          "cities": "Belize City, San Ignacio"
+      },
+      {
+          "zone": "America/Chicago",
+          "hour": "GMT-6",
+          "country": "United States",
+          "cities": "Chicago, Houston, San Antonio"
+      },
+      {
+          "zone": "America/Costa_Rica",
+          "hour": "GMT-6",
+          "country": "Costa Rica",
+          "cities": "San José, Limón, San Francisco"
+      },
+      {
+          "zone": "America/El_Salvador",
+          "hour": "GMT-6",
+          "country": "El Salvador",
+          "cities": "San Salvador, Soyapango, Santa Ana"
+      },
+      {
+          "zone": "America/Guatemala",
+          "hour": "GMT-6",
+          "country": "Guatemala",
+          "cities": "Guatemala City, Mixco, Villa Nueva"
+      },
+      {
+          "zone": "America/Indiana/Knox",
+          "hour": "GMT-6",
+          "country": "United States",
+          "cities": "Indiana Knox (US)"
+      },
+      {
+          "zone": "America/Indiana/Tell_City",
+          "hour": "GMT-6",
+          "country": "United States",
+          "cities": "Tell City"
+      },
+      {
+          "zone": "America/Managua",
+          "hour": "GMT-6",
+          "country": "Nicaragua",
+          "cities": "Managua, León, Masaya, Chinandega"
+      },
+      {
+          "zone": "America/Matamoros",
+          "hour": "GMT-6",
+          "country": "Mexico",
+          "cities": "Reynosa, Heroica Matamoros, Laredo"
+      },
+      {
+          "zone": "America/Menominee",
+          "hour": "GMT-6",
+          "country": "United States",
+          "cities": "Menominee, Iron Mountain, Kingsford"
+      },
+      {
+          "zone": "America/Merida",
+          "hour": "GMT-6",
+          "country": "Mexico",
+          "cities": "Mérida, Campeche, Ciudad del Carmen"
+      },
+      {
+          "zone": "America/Mexico_City",
+          "hour": "GMT-6",
+          "country": "Mexico",
+          "cities": "Mexico City, Iztapalapa, Ecatepec"
+      },
+      {
+          "zone": "America/Monterrey",
+          "hour": "GMT-6",
+          "country": "Mexico",
+          "cities": "Monterrey, Saltillo, Guadalupe, Torreón"
+      },
+      {
+          "zone": "America/North_Dakota/Beulah",
+          "hour": "GMT-6",
+          "country": "United States",
+          "cities": "Beulah"
+      },
+      {
+          "zone": "America/North_Dakota/Center",
+          "hour": "GMT-6",
+          "country": "United States",
+          "cities": "North Dakota"
+      },
+      {
+          "zone": "America/North_Dakota/New_Salem",
+          "hour": "GMT-6",
+          "country": "United States",
+          "cities": "Mandan"
+      },
+      {
+          "zone": "America/Rainy_River",
+          "hour": "GMT-6",
+          "country": "Canada",
+          "cities": "Rainy River"
+      },
+      {
+          "zone": "America/Rankin_Inlet",
+          "hour": "GMT-6",
+          "country": "Canada",
+          "cities": "Rankin Inlet"
+      },
+      {
+          "zone": "America/Regina",
+          "hour": "GMT-6",
+          "country": "Canada",
+          "cities": "Saskatoon, Regina, Prince Albert"
+      },
+      {
+          "zone": "America/Resolute",
+          "hour": "GMT-6",
+          "country": "Canada",
+          "cities": ""
+      },
+      {
+          "zone": "America/Swift_Current",
+          "hour": "GMT-6",
+          "country": "Canada",
+          "cities": "Swift Current"
+      },
+      {
+          "zone": "America/Tegucigalpa",
+          "hour": "GMT-6",
+          "country": "Honduras",
+          "cities": "Tegucigalpa, San Pedro Sula"
+      },
+      {
+          "zone": "America/Winnipeg",
+          "hour": "GMT-6",
+          "country": "Canada",
+          "cities": "Winnipeg, Brandon, Kenora"
+      },
+      {
+          "zone": "Pacific/Easter",
+          "hour": "GMT-6",
+          "country": "Chile",
+          "cities": "Chile Pacific Easter"
+      },
+      {
+          "zone": "Pacific/Galapagos",
+          "hour": "GMT-6",
+          "country": "Ecuador",
+          "cities": "Puerto Ayora, Puerto Moreno"
+      },
+      {
+          "zone": "America/Atikokan",
+          "hour": "GMT-5",
+          "country": "Canada",
+          "cities": "Atikokan (CA)"
+      },
+      {
+          "zone": "America/Bogota",
+          "hour": "GMT-5",
+          "country": "Colombia",
+          "cities": "Bogotá, Cali, Medellín"
+      },
+      {
+          "zone": "America/Cancun",
+          "hour": "GMT-5",
+          "country": "Mexico",
+          "cities": "Cancún, Chetumal, Cozumel"
+      },
+      {
+          "zone": "America/Cayman",
+          "hour": "GMT-5",
+          "country": "Cayman Islands",
+          "cities": "George Town, West Bay"
+      },
+      {
+          "zone": "America/Detroit",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Detroit, Grand Rapids, Warren"
+      },
+      {
+          "zone": "America/Eirunepe",
+          "hour": "GMT-5",
+          "country": "Brazil",
+          "cities": "Eirunepé, Benjamin Constant, Envira"
+      },
+      {
+          "zone": "America/Grand_Turk",
+          "hour": "GMT-5",
+          "country": "Turks and Caicos Islands",
+          "cities": "Cockburn Town"
+      },
+      {
+          "zone": "America/Guayaquil",
+          "hour": "GMT-5",
+          "country": "Ecuador",
+          "cities": "Guayaquil, Quito, Cuenca, Machala"
+      },
+      {
+          "zone": "America/Havana",
+          "hour": "GMT-5",
+          "country": "Cuba",
+          "cities": "Habana, Havana, Santiago de Cuba"
+      },
+      {
+          "zone": "America/Indiana/Indianapolis",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Indianapolis, Fort Wayne"
+      },
+      {
+          "zone": "America/Indiana/Marengo",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Indiana, Marengo"
+      },
+      {
+          "zone": "America/Indiana/Petersburg",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Petersburg"
+      },
+      {
+          "zone": "America/Indiana/Vevay",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Indiana, Vevay"
+      },
+      {
+          "zone": "America/Indiana/Vincennes",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Vincennes, Jasper, Washington"
+      },
+      {
+          "zone": "America/Indiana/Winamac",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Winamac"
+      },
+      {
+          "zone": "America/Iqaluit",
+          "hour": "GMT-5",
+          "country": "Canada",
+          "cities": "Iqaluit"
+      },
+      {
+          "zone": "America/Jamaica",
+          "hour": "GMT-5",
+          "country": "Jamaica",
+          "cities": "Kingston, New Kingston, Spanish Town"
+      },
+      {
+          "zone": "America/Kentucky/Louisville",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Louisville, Jeffersonville, New Albany"
+      },
+      {
+          "zone": "America/Kentucky/Monticello",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "Monticello"
+      },
+      {
+          "zone": "America/Lima",
+          "hour": "GMT-5",
+          "country": "Peru",
+          "cities": "Lima, Arequipa, Callao, Trujillo"
+      },
+      {
+          "zone": "America/Nassau",
+          "hour": "GMT-5",
+          "country": "Peru",
+          "cities": "Bahamas Nassau, Lucaya, Freeport"
+      },
+      {
+          "zone": "America/New_York",
+          "hour": "GMT-5",
+          "country": "United States",
+          "cities": "New York City, Brooklyn, Queens"
+      },
+      {
+          "zone": "America/Nipigon",
+          "hour": "GMT-5",
+          "country": "Canada",
+          "cities": "Canada"
+      },
+      {
+          "zone": "America/Panama",
+          "hour": "GMT-5",
+          "country": "Panama",
+          "cities": "Panamá, San Miguelito, Juan Díaz"
+      },
+      {
+          "zone": "America/Pangnirtung",
+          "hour": "GMT-5",
+          "country": "Canada",
+          "cities": "Pangnirtung"
+      },
+      {
+          "zone": "America/Port-au-Prince",
+          "hour": "GMT-5",
+          "country": "Haiti",
+          "cities": "Port-au-Prince, Carrefour, Delmas"
+      },
+      {
+          "zone": "America/Rio_Branco",
+          "hour": "GMT-5",
+          "country": "Brazil",
+          "cities": "Rio Branco, Cruzeiro do Sul, Sena"
+      },
+      {
+          "zone": "America/Thunder_Bay",
+          "hour": "GMT-5",
+          "country": "Canada",
+          "cities": "Thunder Bay"
+      },
+      {
+          "zone": "America/Toronto",
+          "hour": "GMT-5",
+          "country": "Canada",
+          "cities": "Toronto, Montréal, Ottawa, Québec"
+      },
+      {
+          "zone": "America/Anguilla",
+          "hour": "GMT-4",
+          "country": "Anguilla",
+          "cities": "The Valley, Blowing Point Village"
+      },
+      {
+          "zone": "America/Antigua",
+          "hour": "GMT-4",
+          "country": "Antigua and Barbuda",
+          "cities": "Saint John’s, Piggotts, Bolands"
+      },
+      {
+          "zone": "America/Aruba",
+          "hour": "GMT-4",
+          "country": "Aruba",
+          "cities": "Oranjestad, Tanki Leendert"
+      },
+      {
+          "zone": "America/Asuncion",
+          "hour": "GMT-4",
+          "country": "Paraguay",
+          "cities": "Asunción, Ciudad del Este, San Lorenzo"
+      },
+      {
+          "zone": "America/Barbados",
+          "hour": "GMT-4",
+          "country": "Barbados",
+          "cities": "Bridgetown, Speightstown, Oistins"
+      },
+      {
+          "zone": "America/Blanc-Sablon",
+          "hour": "GMT-4",
+          "country": "Canada",
+          "cities": "Lévis"
+      },
+      {
+          "zone": "America/Boa_Vista",
+          "hour": "GMT-4",
+          "country": "Brazil",
+          "cities": "Boa Vista"
+      },
+      {
+          "zone": "America/Campo_Grande",
+          "hour": "GMT-4",
+          "country": "Brazil",
+          "cities": "Campo Grande, Dourados, Corumbá"
+      },
+      {
+          "zone": "America/Caracas",
+          "hour": "GMT-4",
+          "country": "Venezuela",
+          "cities": "Caracas, Maracaibo, Maracay, Trujillo"
+      },
+      {
+          "zone": "America/Cuiaba",
+          "hour": "GMT-4",
+          "country": "Brazil",
+          "cities": "Cuiabá, Várzea Grande, Rondonópolis, Sinop"
+      },
+      {
+          "zone": "America/Curacao",
+          "hour": "GMT-4",
+          "country": "Curacao",
+          "cities": "Willemstad, Sint Michiel Liber"
+      },
+      {
+          "zone": "America/Dominica",
+          "hour": "GMT-4",
+          "country": "Dominica",
+          "cities": "Roseau, Portsmouth, Berekua, Saint Joseph"
+      },
+      {
+          "zone": "America/Glace_Bay",
+          "hour": "GMT-4",
+          "country": "Canada",
+          "cities": "Sydney, Glace Bay, Sydney Mines"
+      },
+      {
+          "zone": "America/Goose_Bay",
+          "hour": "GMT-4",
+          "country": "Canada",
+          "cities": "Labrador City, Happy Valley-Goose Bay"
+      },
+      {
+          "zone": "America/Grenada",
+          "hour": "GMT-4",
+          "country": "Grenada",
+          "cities": "Saint George's, Gouyave, Grenville, Victoria"
+      },
+      {
+          "zone": "America/Guadeloupe",
+          "hour": "GMT-4",
+          "country": "Guadeloupe",
+          "cities": "Les Abymes, Baie-Mahault, Le Gosier"
+      },
+      {
+          "zone": "America/Guyana",
+          "hour": "GMT-4",
+          "country": "Guyana",
+          "cities": "Georgetown, Linden, New Amsterdam, Regina"
+      },
+      {
+          "zone": "America/Halifax",
+          "hour": "GMT-4",
+          "country": "Canada",
+          "cities": "Halifax, Dartmouth, Charlottetown, Truro"
+      },
+      {
+          "zone": "America/Kralendijk",
+          "hour": "GMT-4",
+          "country": "Bonaire, Saint Eustatius and Saba",
+          "cities": "Kralendijk, Oranjestad, The Bottom"
+      },
+      {
+          "zone": "America/La_Paz",
+          "hour": "GMT-4",
+          "country": "Bolivia",
+          "cities": "Santa Cruz de la Sierra, La Paz, Sucre"
+      },
+      {
+          "zone": "America/Lower_Princes",
+          "hour": "GMT-4",
+          "country": "Sint Maarten",
+          "cities": "Cul de Sac, Lower Prince’s Quarter"
+      },
+      {
+          "zone": "America/Manaus",
+          "hour": "GMT-4",
+          "country": "Brazil",
+          "cities": "Manaus, Itacoatiara, Parintins, Manacapuru"
+      },
+      {
+          "zone": "America/Marigot",
+          "hour": "GMT-4",
+          "country": "Saint Martin",
+          "cities": "Marigot"
+      },
+      {
+          "zone": "America/Martinique",
+          "hour": "GMT-4",
+          "country": "Martinique",
+          "cities": "Fort-de-France, Le Lamentin, Le Robert"
+      },
+      {
+          "zone": "America/Moncton",
+          "hour": "GMT-4",
+          "country": "Canada",
+          "cities": "Moncton, Saint John, Fredericton, Dieppe"
+      },
+      {
+          "zone": "America/Montserrat",
+          "hour": "GMT-4",
+          "country": "Montserrat",
+          "cities": "Brades, Saint Peters, Plymouth"
+      },
+      {
+          "zone": "America/Porto_Velho",
+          "hour": "GMT-4",
+          "country": "Brazil",
+          "cities": "Porto Velho, Ji Paraná, Vilhena"
+      },
+      {
+          "zone": "America/Port_of_Spain",
+          "hour": "GMT-4",
+          "country": "Trinidad and Tobago",
+          "cities": "Chaguanas, Mon Repos, San Fernando"
+      },
+      {
+          "zone": "America/Puerto_Rico",
+          "hour": "GMT-4",
+          "country": "Puerto Rico",
+          "cities": "San Juan, Bayamón, Carolina, Ponce, Caguas"
+      },
+      {
+          "zone": "America/Santiago",
+          "hour": "GMT-4",
+          "country": "Chile",
+          "cities": "Santiago, Puente Alto, Antofagasta, Viña"
+      },
+      {
+          "zone": "America/Santo_Domingo",
+          "hour": "GMT-4",
+          "country": "Dominican Republic",
+          "cities": "Santo Domingo, Santiago de los Caballeros"
+      },
+      {
+          "zone": "America/St_Barthelemy",
+          "hour": "GMT-4",
+          "country": "Saint Barthelemy",
+          "cities": "Gustavia"
+      },
+      {
+          "zone": "America/St_Kitts",
+          "hour": "GMT-4",
+          "country": "Saint Kitts and Nevis",
+          "cities": "Basseterre, Fig Tree, Market Shop"
+      },
+      {
+          "zone": "America/St_Lucia",
+          "hour": "GMT-4",
+          "country": "Saint Lucia",
+          "cities": "Castries, Bisee, Vieux Fort, Micoud"
+      },
+      {
+          "zone": "America/St_Thomas",
+          "hour": "GMT-4",
+          "country": "U.S. Virgin Islands",
+          "cities": "Saint Croix, Charlotte Amalie, Cruz Bay"
+      },
+      {
+          "zone": "America/St_Vincent",
+          "hour": "GMT-4",
+          "country": "Saint Vincent and the Grenadines",
+          "cities": "Kingstown, Kingstown Park, Georgetown"
+      },
+      {
+          "zone": "America/Thule",
+          "hour": "GMT-4",
+          "country": "Greenland",
+          "cities": "Thule Greenland"
+      },
+      {
+          "zone": "America/Tortola",
+          "hour": "GMT-4",
+          "country": "British Virgin Islands",
+          "cities": "Road Town"
+      },
+      {
+          "zone": "Atlantic/Bermuda",
+          "hour": "GMT-4",
+          "country": "Bermuda",
+          "cities": "Hamilton"
+      },
+      {
+          "zone": "America/St_Johns",
+          "hour": "GMT-3:30",
+          "country": "Canada",
+          "cities": "St. John's, Mount Pearl, Corner Brook"
+      },
+      {
+          "zone": "America/Araguaina",
+          "hour": "GMT-3",
+          "country": "Brazil",
+          "cities": "Palmas, Araguaína, Gurupi, Tocantins"
+      },
+      {
+          "zone": "America/Argentina/Buenos_Aires",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "Buenos Aires, La Plata, Mar del Plata"
+      },
+      {
+          "zone": "America/Argentina/Catamarca",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "San Fernando del Valle de Catamarca, Trelew"
+      },
+      {
+          "zone": "America/Argentina/Cordoba",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "Córdoba, Rosario, Santa Fe, Resistencia"
+      },
+      {
+          "zone": "America/Argentina/Jujuy",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "San Salvador de Jujuy, San Pedro de Jujuy"
+      },
+      {
+          "zone": "America/Argentina/La_Rioja",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "La Rioja, Chilecito, Arauco, Chamical"
+      },
+      {
+          "zone": "America/Argentina/Mendoza",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "Mendoza, San Rafael, San Martín"
+      },
+      {
+          "zone": "America/Argentina/Rio_Gallegos",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "Comodoro Rivadavia, Río Gallegos, Caleta"
+      },
+      {
+          "zone": "America/Argentina/Salta",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "Salta, Neuquén, Santa Rosa, Bariloche"
+      },
+      {
+          "zone": "America/Argentina/San_Juan",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "San Juan, Chimbas, Santa Lucía, Pocito"
+      },
+      {
+          "zone": "America/Argentina/San_Luis",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "San Luis, Villa Mercedes, La Punta, Merlo"
+      },
+      {
+          "zone": "America/Argentina/Tucuman",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "San Miguel de Tucumán, Yerba Buena, Alderetes"
+      },
+      {
+          "zone": "America/Argentina/Ushuaia",
+          "hour": "GMT-3",
+          "country": "Argentina",
+          "cities": "Ushuaia, Río Grande"
+      },
+      {
+          "zone": "America/Bahia",
+          "hour": "GMT-3",
+          "country": "Brazil",
+          "cities": "Salvador, Feira de Santana, Itabuna"
+      },
+      {
+          "zone": "America/Belem",
+          "hour": "GMT-3",
+          "country": "Brazil",
+          "cities": "Belém, Ananindeua, Macapá, Parauapebas"
+      },
+      {
+          "zone": "America/Cayenne",
+          "hour": "GMT-3",
+          "country": "French Guiana",
+          "cities": "Cayenne, Matoury, Saint-Laurent-du-Maroni"
+      },
+      {
+          "zone": "America/Fortaleza",
+          "hour": "GMT-3",
+          "country": "Brazil",
+          "cities": "Fortaleza, São Luís, Natal, Teresina"
+      },
+      {
+          "zone": "America/Godthab",
+          "hour": "GMT-3",
+          "country": "Greenland",
+          "cities": "Nuuk, Sisimiut, Ilulissat, Qaqortoq"
+      },
+      {
+          "zone": "America/Maceio",
+          "hour": "GMT-3",
+          "country": "Brazil",
+          "cities": "Maceió, Aracaju, Arapiraca, São Cristóvão"
+      },
+      {
+          "zone": "America/Miquelon",
+          "hour": "GMT-3",
+          "country": "Saint Pierre and Miquelon",
+          "cities": "Saint-Pierre, Miquelon"
+      },
+      {
+          "zone": "America/Montevideo",
+          "hour": "GMT-3",
+          "country": "Uruguay",
+          "cities": "Montevideo, Salto, Paysandú, Las Piedras"
+      },
+      {
+          "zone": "America/Paramaribo",
+          "hour": "GMT-3",
+          "country": "Suriname",
+          "cities": "Paramaribo, Lelydorp, Brokopondo, Moengo"
+      },
+      {
+          "zone": "America/Punta_Arenas",
+          "hour": "GMT-3",
+          "country": "Chile",
+          "cities": "Punta Arenas, Puerto Natales"
+      },
+      {
+          "zone": "America/Recife",
+          "hour": "GMT-3",
+          "country": "Brazil",
+          "cities": "Recife, Jaboatão, Jaboatão dos Guararapes"
+      },
+      {
+          "zone": "America/Santarem",
+          "hour": "GMT-3",
+          "country": "Brazil",
+          "cities": "Santarém, Altamira, Itaituba, Oriximiná"
+      },
+      {
+          "zone": "America/Sao_Paulo",
+          "hour": "GMT-3",
+          "country": "Brazil",
+          "cities": "São Paulo, Rio de Janeiro, Belo Horizonte"
+      },
+      {
+          "zone": "Antarctica/Palmer",
+          "hour": "GMT-3",
+          "country": "Antarctica",
+          "cities": "Palmer Antarctica"
+      },
+      {
+          "zone": "Antarctica/Rothera",
+          "hour": "GMT-3",
+          "country": "Antarctica",
+          "cities": "La Legua-San Jacinto"
+      },
+      {
+          "zone": "Atlantic/Stanley",
+          "hour": "GMT-3",
+          "country": "Falkland Islands",
+          "cities": "Stanley"
+      },
+      {
+          "zone": "America/Noronha",
+          "hour": "GMT-2",
+          "country": "Brazil",
+          "cities": "Itamaracá"
+      },
+      {
+          "zone": "Atlantic/South_Georgia",
+          "hour": "GMT-2",
+          "country": "South Georgia and the South Sandwich",
+          "cities": "Grytviken"
+      },
+      {
+          "zone": "America/Scoresbysund",
+          "hour": "GMT-1",
+          "country": "Greenland",
+          "cities": "Scoresbysund Greenland"
+      },
+      {
+          "zone": "Atlantic/Azores",
+          "hour": "GMT-1",
+          "country": "Portugal",
+          "cities": "Ponta Delgada, Lagoa, Angra do Heroísmo"
+      },
+      {
+          "zone": "Atlantic/Cape_Verde",
+          "hour": "GMT-1",
+          "country": "Cabo Verde",
+          "cities": "Praia, Mindelo, Santa Maria, Cova Figueira"
+      },
+      {
+          "zone": "Africa/Abidjan",
+          "hour": "GMT+0",
+          "country": "Ivory Coast",
+          "cities": "Abidjan, Abobo, Bouaké, Daloa, San-Pédro"
+      },
+      {
+          "zone": "Africa/Accra",
+          "hour": "GMT+0",
+          "country": "Ghana",
+          "cities": "Accra, Kumasi, Tamale, Takoradi, Atsiaman"
+      },
+      {
+          "zone": "Africa/Bamako",
+          "hour": "GMT+0",
+          "country": "Mali",
+          "cities": "Bamako, Sikasso, Mopti, Koutiala, Ségou"
+      },
+      {
+          "zone": "Africa/Banjul",
+          "hour": "GMT+0",
+          "country": "Gambia",
+          "cities": "Serekunda, Brikama, Bakau, Banjul, Farafenni"
+      },
+      {
+          "zone": "Africa/Bissau",
+          "hour": "GMT+0",
+          "country": "Guinea-Bissau",
+          "cities": "Bissau, Bafatá, Gabú, Bissorã, Bolama"
+      },
+      {
+          "zone": "Africa/Conakry",
+          "hour": "GMT+0",
+          "country": "Guinea",
+          "cities": "Camayenne, Conakry, Nzérékoré, Kindia"
+      },
+      {
+          "zone": "Africa/Dakar",
+          "hour": "GMT+0",
+          "country": "Senegal",
+          "cities": "Dakar, Pikine, Touba, Thies, Thies Nones"
+      },
+      {
+          "zone": "Africa/Freetown",
+          "hour": "GMT+0",
+          "country": "Sierra Leone",
+          "cities": "Freetown, Bo, Kenema, Koidu, Makeni"
+      },
+      {
+          "zone": "Africa/Lome",
+          "hour": "GMT+0",
+          "country": "Togo",
+          "cities": "Lomé, Sokodé, Kara, Atakpamé, Kpalimé"
+      },
+      {
+          "zone": "Africa/Monrovia",
+          "hour": "GMT+0",
+          "country": "Liberia",
+          "cities": "Monrovia, Gbarnga, Kakata, Bensonville"
+      },
+      {
+          "zone": "Africa/Ouagadougou",
+          "hour": "GMT+0",
+          "country": "Burkina Faso",
+          "cities": "Ouagadougou, Bobo-Dioulasso, Koudougou"
+      },
+      {
+          "zone": "Africa/Sao_Tome",
+          "hour": "GMT+0",
+          "country": "Sao Tome and Principe",
+          "cities": "São Tomé, Santo António"
+      },
+      {
+          "zone": "America/Danmarkshavn",
+          "hour": "GMT+0",
+          "country": "Greenland",
+          "cities": ""
+      },
+      {
+          "zone": "Antarctica/Troll",
+          "hour": "GMT+0",
+          "country": "Antarctica",
+          "cities": ""
+      },
+      {
+          "zone": "Atlantic/Canary",
+          "hour": "GMT+0",
+          "country": "Spain",
+          "cities": "Las Palmas de Gran Canaria, Tenerife"
+      },
+      {
+          "zone": "Atlantic/Faroe",
+          "hour": "GMT+0",
+          "country": "Faroe Islands",
+          "cities": "Tórshavn, Klaksvík, Fuglafjørður, Tvøroyri"
+      },
+      {
+          "zone": "Atlantic/Madeira",
+          "hour": "GMT+0",
+          "country": "Portugal",
+          "cities": "Funchal, Câmara de Lobos, São Martinho"
+      },
+      {
+          "zone": "Atlantic/Reykjavik",
+          "hour": "GMT+0",
+          "country": "Iceland",
+          "cities": "Reykjavík, Kópavogur, Hafnarfjörður"
+      },
+      {
+          "zone": "Atlantic/St_Helena",
+          "hour": "GMT+0",
+          "country": "Saint Helena",
+          "cities": "Jamestown, Georgetown, Edinburgh Seven"
+      },
+      {
+          "zone": "Europe/Guernsey",
+          "hour": "GMT+0",
+          "country": "Guernsey",
+          "cities": "Saint Peter Port, St Martin, Saint Sampson"
+      },
+      {
+          "zone": "Europe/Isle_of_Man",
+          "hour": "GMT+0",
+          "country": "Isle of Man",
+          "cities": "Douglas, Ramsey, Peel, Port Erin"
+      },
+      {
+          "zone": "Europe/Jersey",
+          "hour": "GMT+0",
+          "country": "Jersey",
+          "cities": "Saint Helier, Le Hocq"
+      },
+      {
+          "zone": "Europe/Lisbon",
+          "hour": "GMT+0",
+          "country": "Portugal",
+          "cities": "Lisbon, Porto, Amadora, Braga, Setúbal"
+      },
+      {
+          "zone": "Europe/London",
+          "hour": "GMT+0",
+          "country": "United Kingdom",
+          "cities": "London, Birmingham, Liverpool, Nottingham"
+      },
+      {
+          "zone": "Africa/Algiers",
+          "hour": "GMT+1",
+          "country": "Algeria",
+          "cities": "Algiers, Boumerdas, Oran, Tébessa"
+      },
+      {
+          "zone": "Africa/Bangui",
+          "hour": "GMT+1",
+          "country": "Central African Republic",
+          "cities": "Bangui, Bimbo, Mbaïki, Berbérati"
+      },
+      {
+          "zone": "Africa/Brazzaville",
+          "hour": "GMT+1",
+          "country": "Republic of the Congo",
+          "cities": "Brazzaville, Pointe-Noire, Dolisie, Kayes"
+      },
+      {
+          "zone": "Africa/Casablanca",
+          "hour": "GMT+1",
+          "country": "Morocco",
+          "cities": "Casablanca, Rabat, Fes, Sale, Marrakesh"
+      },
+      {
+          "zone": "Africa/Ceuta",
+          "hour": "GMT+1",
+          "country": "Spain",
+          "cities": "Ceuta, Melilla"
+      },
+      {
+          "zone": "Africa/Douala",
+          "hour": "GMT+1",
+          "country": "Cameroon",
+          "cities": "Douala, Yaoundé, Garoua, Kousséri, Bamenda"
+      },
+      {
+          "zone": "Africa/El_Aaiun",
+          "hour": "GMT+1",
+          "country": "Western Sahara",
+          "cities": "Laayoune, Dakhla, Laayoune Plage"
+      },
+      {
+          "zone": "Africa/Kinshasa",
+          "hour": "GMT+1",
+          "country": "Democratic Republic of the Congo",
+          "cities": "Kinshasa, Masina, Kikwit, Mbandaka, Matadi"
+      },
+      {
+          "zone": "Africa/Lagos",
+          "hour": "GMT+1",
+          "country": "Nigeria",
+          "cities": "Lagos, Kano, Ibadan, Kaduna, Port Harcourt"
+      },
+      {
+          "zone": "Africa/Libreville",
+          "hour": "GMT+1",
+          "country": "Gabon",
+          "cities": "Libreville, Port-Gentil, Franceville, Oyem"
+      },
+      {
+          "zone": "Africa/Luanda",
+          "hour": "GMT+1",
+          "country": "Angola",
+          "cities": "Luanda, N’dalatando, Huambo, Lobito"
+      },
+      {
+          "zone": "Africa/Malabo",
+          "hour": "GMT+1",
+          "country": "Equatorial Guinea",
+          "cities": "Bata, Malabo, Ebebiyin, Aconibe, Añisoc"
+      },
+      {
+          "zone": "Africa/Ndjamena",
+          "hour": "GMT+1",
+          "country": "Chad",
+          "cities": "N'Djamena, Moundou, Sarh, Abéché, Kelo"
+      },
+      {
+          "zone": "Africa/Niamey",
+          "hour": "GMT+1",
+          "country": "Niger",
+          "cities": "Niamey, Zinder, Maradi, Agadez, Alaghsas"
+      },
+      {
+          "zone": "Africa/Porto-Novo",
+          "hour": "GMT+1",
+          "country": "Benin",
+          "cities": "Cotonou, Abomey-Calavi, Djougou, Porto-Novo"
+      },
+      {
+          "zone": "Africa/Tunis",
+          "hour": "GMT+1",
+          "country": "Tunisia",
+          "cities": "Tunis, Sfax, Sousse, Kairouan, Bizerte"
+      },
+      {
+          "zone": "Arctic/Longyearbyen",
+          "hour": "GMT+1",
+          "country": "Svalbard and Jan Mayen",
+          "cities": "Longyearbyen, Olonkinbyen"
+      },
+      {
+          "zone": "Europe/Amsterdam",
+          "hour": "GMT+1",
+          "country": "Netherlands",
+          "cities": "Amsterdam, Rotterdam, The Hague, Utrecht"
+      },
+      {
+          "zone": "Europe/Andorra",
+          "hour": "GMT+1",
+          "country": "Andorra",
+          "cities": "Andorra la Vella, les Escaldes, Encamp"
+      },
+      {
+          "zone": "Europe/Belgrade",
+          "hour": "GMT+1",
+          "country": "Serbia",
+          "cities": "Belgrade, Pristina, Niš, Novi Sad, Prizren"
+      },
+      {
+          "zone": "Europe/Berlin",
+          "hour": "GMT+1",
+          "country": "Germany",
+          "cities": "Berlin, Hamburg, Munich, Köln, Frankfurt"
+      },
+      {
+          "zone": "Europe/Bratislava",
+          "hour": "GMT+1",
+          "country": "Slovakia",
+          "cities": "Bratislava, Košice, Prešov, Nitra, Žilina"
+      },
+      {
+          "zone": "Europe/Brussels",
+          "hour": "GMT+1",
+          "country": "Belgium",
+          "cities": "Brussels, Antwerpen, Gent, Charleroi"
+      },
+      {
+          "zone": "Europe/Budapest",
+          "hour": "GMT+1",
+          "country": "Hungary",
+          "cities": "Budapest, Debrecen, Miskolc, Szeged, Pécs"
+      },
+      {
+          "zone": "Europe/Copenhagen",
+          "hour": "GMT+1",
+          "country": "Denmark",
+          "cities": "Copenhagen, Århus, Odense, Aalborg"
+      },
+      {
+          "zone": "Europe/Dublin",
+          "hour": "GMT+1",
+          "country": "Ireland",
+          "cities": "Dublin, Cork, Luimneach, Gaillimh"
+      },
+      {
+          "zone": "Europe/Gibraltar",
+          "hour": "GMT+1",
+          "country": "Gibraltar",
+          "cities": "Gibraltar"
+      },
+      {
+          "zone": "Europe/Ljubljana",
+          "hour": "GMT+1",
+          "country": "Slovenia",
+          "cities": "Ljubljana, Maribor, Celje, Kranj, Velenje"
+      },
+      {
+          "zone": "Europe/Luxembourg",
+          "hour": "GMT+1",
+          "country": "Luxembourg",
+          "cities": "Luxembourg, Esch-sur-Alzette, Dudelange"
+      },
+      {
+          "zone": "Europe/Madrid",
+          "hour": "GMT+1",
+          "country": "Spain",
+          "cities": "Madrid, Barcelona, Valencia, Sevilla"
+      },
+      {
+          "zone": "Europe/Malta",
+          "hour": "GMT+1",
+          "country": "Malta",
+          "cities": "Birkirkara, Qormi, Mosta, Żabbar"
+      },
+      {
+          "zone": "Europe/Monaco",
+          "hour": "GMT+1",
+          "country": "Monaco",
+          "cities": "Monaco, Monte-Carlo, La Condamine"
+      },
+      {
+          "zone": "Europe/Oslo",
+          "hour": "GMT+1",
+          "country": "Norway",
+          "cities": "Oslo, Bergen, Trondheim, Stavanger"
+      },
+      {
+          "zone": "Europe/Paris",
+          "hour": "GMT+1",
+          "country": "France",
+          "cities": "Paris, Marseille, Lyon, Toulouse, Nice"
+      },
+      {
+          "zone": "Europe/Podgorica",
+          "hour": "GMT+1",
+          "country": "Montenegro",
+          "cities": "Podgorica, Nikšić, Herceg Novi, Pljevlja"
+      },
+      {
+          "zone": "Europe/Prague",
+          "hour": "GMT+1",
+          "country": "Czechia",
+          "cities": "Prague, Brno, Ostrava, Pilsen, Olomouc"
+      },
+      {
+          "zone": "Europe/Rome",
+          "hour": "GMT+1",
+          "country": "Italy",
+          "cities": "Rome, Milan, Naples, Turin, Palermo"
+      },
+      {
+          "zone": "Europe/San_Marino",
+          "hour": "GMT+1",
+          "country": "San Marino",
+          "cities": "Serravalle, Borgo Maggiore, San Marino"
+      },
+      {
+          "zone": "Europe/Sarajevo",
+          "hour": "GMT+1",
+          "country": "Bosnia and Herzegovina",
+          "cities": "Sarajevo, Banja Luka, Zenica, Tuzla, Mostar"
+      },
+      {
+          "zone": "Europe/Skopje",
+          "hour": "GMT+1",
+          "country": "North Macedonia",
+          "cities": "Skopje, Bitola, Kumanovo, Prilep, Tetovo"
+      },
+      {
+          "zone": "Europe/Stockholm",
+          "hour": "GMT+1",
+          "country": "Sweden",
+          "cities": "Stockholm, Göteborg, Malmö, Uppsala"
+      },
+      {
+          "zone": "Europe/Tirane",
+          "hour": "GMT+1",
+          "country": "Albania",
+          "cities": "Tirana, Durrës, Elbasan, Vlorë, Shkodër"
+      },
+      {
+          "zone": "Europe/Vaduz",
+          "hour": "GMT+1",
+          "country": "Liechtenstein",
+          "cities": "Schaan, Vaduz, Triesen, Balzers, Eschen"
+      },
+      {
+          "zone": "Europe/Vatican",
+          "hour": "GMT+1",
+          "country": "Vatican",
+          "cities": "Vatican City"
+      },
+      {
+          "zone": "Europe/Vienna",
+          "hour": "GMT+1",
+          "country": "Austria",
+          "cities": "Vienna, Graz, Linz, Favoriten, Donaustadt"
+      },
+      {
+          "zone": "Europe/Warsaw",
+          "hour": "GMT+1",
+          "country": "Poland",
+          "cities": "Warsaw, Łódź, Kraków, Wrocław, Poznań"
+      },
+      {
+          "zone": "Europe/Zagreb",
+          "hour": "GMT+1",
+          "country": "Croatia",
+          "cities": "Zagreb, Split, Rijeka, Osijek, Zadar"
+      },
+      {
+          "zone": "Europe/Zurich",
+          "hour": "GMT+1",
+          "country": "Switzerland",
+          "cities": "Zürich, Genève, Basel, Bern, Lausanne"
+      },
+      {
+          "zone": "Africa/Blantyre",
+          "hour": "GMT+2",
+          "country": "Malawi",
+          "cities": "Lilongwe, Blantyre, Mzuzu, Zomba, Kasungu"
+      },
+      {
+          "zone": "Africa/Bujumbura",
+          "hour": "GMT+2",
+          "country": "Burundi",
+          "cities": "Bujumbura, Muyinga, Gitega, Ruyigi, Ngozi"
+      },
+      {
+          "zone": "Africa/Cairo",
+          "hour": "GMT+2",
+          "country": "Egypt",
+          "cities": "Cairo, Alexandria, Giza, Port Said, Suez"
+      },
+      {
+          "zone": "Africa/Gaborone",
+          "hour": "GMT+2",
+          "country": "Botswana",
+          "cities": "Gaborone, Francistown, Molepolole,"
+      },
+      {
+          "zone": "Africa/Harare",
+          "hour": "GMT+2",
+          "country": "Zimbabwe",
+          "cities": "Harare, Bulawayo, Chitungwiza, Mutare"
+      },
+      {
+          "zone": "Africa/Johannesburg",
+          "hour": "GMT+2",
+          "country": "South Africa",
+          "cities": "Cape Town, Durban, Johannesburg, Soweto"
+      },
+      {
+          "zone": "Africa/Khartoum",
+          "hour": "GMT+2",
+          "country": "Sudan",
+          "cities": "Khartoum, Omdurman, Nyala, Port Sudan"
+      },
+      {
+          "zone": "Africa/Kigali",
+          "hour": "GMT+2",
+          "country": "Rwanda",
+          "cities": "Kigali, Butare, Gitarama, Musanze"
+      },
+      {
+          "zone": "Africa/Lubumbashi",
+          "hour": "GMT+2",
+          "country": "Democratic Republic of the Congo",
+          "cities": "Lubumbashi, Mbuji-Mayi, Kisangani, Likasi"
+      },
+      {
+          "zone": "Africa/Lusaka",
+          "hour": "GMT+2",
+          "country": "Zambia",
+          "cities": "Lusaka, Kitwe, Ndola, Kabwe, Chingola"
+      },
+      {
+          "zone": "Africa/Maputo",
+          "hour": "GMT+2",
+          "country": "Mozambique",
+          "cities": "Maputo, Matola, Beira, Nampula, Chimoio"
+      },
+      {
+          "zone": "Africa/Maseru",
+          "hour": "GMT+2",
+          "country": "Lesotho",
+          "cities": "Maseru, Mafeteng, Leribe, Maputsoe"
+      },
+      {
+          "zone": "Africa/Mbabane",
+          "hour": "GMT+2",
+          "country": "Eswatini",
+          "cities": "Manzini, Mbabane, Big Bend, Malkerns"
+      },
+      {
+          "zone": "Africa/Tripoli",
+          "hour": "GMT+2",
+          "country": "Libya",
+          "cities": "Tripoli, Benghazi, Mişrātah, Tarhuna, Al Khums"
+      },
+      {
+          "zone": "Africa/Windhoek",
+          "hour": "GMT+2",
+          "country": "Namibia",
+          "cities": "Windhoek, Rundu, Walvis Bay, Oshakati"
+      },
+      {
+          "zone": "Asia/Amman",
+          "hour": "GMT+2",
+          "country": "Jordan",
+          "cities": "Amman, Zarqa, Irbid, Russeifa, Wādī as Sīr"
+      },
+      {
+          "zone": "Asia/Beirut",
+          "hour": "GMT+2",
+          "country": "Lebanon",
+          "cities": "Beirut, Ra’s Bayrūt, Tripoli, Sidon, Tyre"
+      },
+      {
+          "zone": "Asia/Damascus",
+          "hour": "GMT+2",
+          "country": "Syria",
+          "cities": "Aleppo, Damascus, Homs, Ḩamāh, Latakia"
+      },
+      {
+          "zone": "Asia/Famagusta",
+          "hour": "GMT+2",
+          "country": "Cyprus",
+          "cities": "Famagusta, Kyrenia, Protaras, Paralímni"
+      },
+      {
+          "zone": "Asia/Gaza",
+          "hour": "GMT+2",
+          "country": "Palestinian Territory",
+          "cities": "Gaza, Khān Yūnis, Jabālyā, Rafaḩ, Dayr"
+      },
+      {
+          "zone": "Asia/Hebron",
+          "hour": "GMT+2",
+          "country": "Palestinian Territory",
+          "cities": "East Jerusalem, Hebron, Nablus, Battir"
+      },
+      {
+          "zone": "Asia/Jerusalem",
+          "hour": "GMT+2",
+          "country": "Israel",
+          "cities": "Jerusalem, Tel Aviv, West Jerusalem, Haifa"
+      }
+  ]
+}

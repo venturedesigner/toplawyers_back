@@ -2,6 +2,7 @@ const { checkAuth, isAdmin } = require('../../utils')
 
 const {
   getUsers,
+  getUser,
   updateUser
   // getProfile,
   // getMyChannels,
@@ -16,7 +17,7 @@ const router = require('express').Router()
 
 router.get('', checkAuth, isAdmin, getUsers)
 router.post('/update', checkAuth, updateUser)
-// router.get('/:userId/profile', checkAuth, getProfile)
+router.get('/user', checkAuth, getUser)
 // router.get('/mychannels', checkAuth, getMyChannels)
 // router.post('/profile', checkAuth, createProfile)
 // router.post('/creator', checkAuth, updateRoleRequestInfo)

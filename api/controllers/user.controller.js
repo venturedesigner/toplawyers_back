@@ -9,9 +9,22 @@ exports.getUsers = (req, res) => {
     .catch(err => console.error('Error getting all users', err))
 }
 
+/*
+function updateTool (req, res) {
+  toolModel
+    .findByIdAndUpdate(req.params.id, req.body, { new: true })
+    .then((result) => res.status(200).json(result))
+    .catch((err) => res.json(err))
+}
+*/
+
+
 exports.updateUser = (req, res) => {
   userModel
-    .findById(res.locals.user._id)
+    .findByIdAndUpdate(res.locals.user._id, req.body, { new: true })
+    .then((result) => res.status(200).json(result))
+    .catch((err) => res.json(err))
+  /* .findById(res.locals.user._id)
     .then(user => {
       if (req.body.supportlang) { user.supportlang = req.body.supportlang }
       if (req.body.phone) { user.phone = req.body.phone }
@@ -29,17 +42,23 @@ exports.updateUser = (req, res) => {
     })
     .catch(err => {
       res.status(500).json({ msg: 'An error ocurred trying to find user', err })
-    })
+    }) */
 }
 
-// exports.getProfile = (req, res) => {
-//   userModel
-//     .findById(req.params.userId)
-//     .then(user => {
-//       res.status(200).json(user.profile)
-//     })
-//     .catch(err => console.error('Error getting profile', err))
-// }
+exports.getUser = (req, res) => {
+  console.log('getUSER', res.locals.user)
+  // console.log(res)
+  userModel
+    .findById(res.locals.user._id)
+    // .populate('mychannels')
+    .then(user => {
+      console.log('USER => ', user)
+      res.status(200).json(user)
+    })
+    .catch(err => {
+      res.status(500).json({ msg: 'Error getting user', err })
+    })
+}
 
 // exports.getMyChannels = (req, res) => {
 //   userModel

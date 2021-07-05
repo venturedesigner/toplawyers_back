@@ -21,7 +21,10 @@ function updateTool (req, res) {
 exports.updateUser = (req, res) => {
   userModel
     .findByIdAndUpdate(res.locals.user._id, req.body, { new: true })
-    .then((result) => res.status(200).json(result))
+    .then(user => {
+      user.save()
+      res.status(200).json(user)
+    })
     .catch((err) => res.json(err))
 }
 

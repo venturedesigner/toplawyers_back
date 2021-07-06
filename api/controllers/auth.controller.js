@@ -46,7 +46,7 @@ exports.signUp = async (req, res) => { // Automatically create a profile and add
       password: hashedPwd,
       email: req.body.email,
       // dateofbirth: req.body.dateofbirth,
-      typeofuser: req.body.typeofuser
+      typeofuser: 'User'
     })
     .then(user => {
       const userData = {
@@ -55,7 +55,7 @@ exports.signUp = async (req, res) => { // Automatically create a profile and add
         username: res.locals.username,
         id: user._id,
         email: user.email,
-        typeofuser: req.body.typeofuser
+        typeofuser: user.typeofuser
       }
       const token = jwt.sign(
         userData,

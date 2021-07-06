@@ -9,17 +9,8 @@ exports.getUsers = (req, res) => {
     .catch(err => console.error('Error getting all users', err))
 }
 
-/*
-function updateTool (req, res) {
-  toolModel
-    .findByIdAndUpdate(req.params.id, req.body, { new: true })
-    .then((result) => res.status(200).json(result))
-    .catch((err) => res.json(err))
-}
-*/
-
-
 exports.updateUser = (req, res) => {
+  console.log('updateUser')
   userModel
     .findByIdAndUpdate(res.locals.user._id, req.body, { new: true })
     .then((result) => res.status(200).json(result))

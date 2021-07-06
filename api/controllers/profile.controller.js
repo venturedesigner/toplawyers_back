@@ -36,3 +36,15 @@ exports.updateProfile = (req, res) => {
       res.status(500).json({ msg: 'An error ocurred trying to update a profile', err })
     })
 }
+
+exports.getAllProfiles = (req, res) => {
+  profileModel
+    .find()
+    .populate({ path: 'user_id', select: 'avatar' })
+    .select('name description')
+    .then(profiles => {
+      console.log(profiles)
+      res.status(200).json(profiles)
+    })
+    .catch(err => console.error('Error getting all profile', err))
+}

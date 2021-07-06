@@ -63,7 +63,7 @@ exports.signUp = async (req, res) => { // Automatically create a profile and add
         { expiresIn: '48h' }
       )
       profileModel
-        .create({ 
+        .create({
           user_id: user._id,
           name: user.firstname + ' ' + user.lastname
         })

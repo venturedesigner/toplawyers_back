@@ -13,27 +13,11 @@ exports.updateUser = (req, res) => {
   console.log('updateUser')
   userModel
     .findByIdAndUpdate(res.locals.user._id, req.body, { new: true })
-    .then((result) => res.status(200).json(result))
-    .catch((err) => res.json(err))
-  /* .findById(res.locals.user._id)
     .then(user => {
-      if (req.body.supportlang) { user.supportlang = req.body.supportlang }
-      if (req.body.phone) { user.phone = req.body.phone }
-      if (req.body.countryorigin) { user.countryorigin = req.body.countryorigin }
-      if (req.body.dateofbirth) { user.dateofbirth = req.body.dateofbirth }
-
-      res.locals.user = user
       user.save()
-        .then(saved => {
-          res.status(200).json(res.locals.user)
-        })
-        .catch(err => {
-          res.status(401).json({ msg: 'An error ocurred trying to update user info', err })
-        })
+      res.status(200).json(user)
     })
-    .catch(err => {
-      res.status(500).json({ msg: 'An error ocurred trying to find user', err })
-    }) */
+    .catch((err) => res.json(err))
 }
 
 exports.getUser = (req, res) => {

@@ -41,7 +41,7 @@ exports.getAllProfiles = (req, res) => {
   profileModel
     .find()
     .populate({ path: 'user_id', select: 'avatar' })
-    .select('name description')
+    .select('name description skills education experience profilevideo')
     .then(profiles => {
       console.log(profiles)
       res.status(200).json(profiles)

@@ -24,7 +24,7 @@ exports.updateProfile = (req, res) => {
 
         profile.save()
           .then(saved => {
-            res.status(200).json(res.locals.profile)
+            res.status(201).json(res.locals.profile)
           })
           .catch(err => {
             res.status(401).json({ msg: 'An error ocurred trying to save profile info', err })
@@ -66,15 +66,15 @@ exports.updateCurrentProfile = (req, res) => {
 
           profile.save()
             .then(saved => {
-              res.status(200).json(res.locals.profile)
+              res.status(201).json(res.locals.profile)
             })
             .catch(err => {
-              res.status(401).json({ msg: 'An error ocurred trying to save profile info', err })
+              res.status(401).json({ msg: 'An error ocurred trying to save your profile info', err })
             })
           
         })
         .catch(err => {
-          res.status(500).json({ msg: 'An error ocurred trying to update a profile5', err })
+          res.status(500).json({ msg: 'An error ocurred trying to update your profile', err })
         })
 
     })

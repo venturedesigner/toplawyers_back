@@ -1,4 +1,5 @@
 const { profileModel } = require('../models/profile.model')
+const { userModel } = require('../models/user.model')
 
 exports.updateProfile = (req, res) => {
   profileModel
@@ -47,4 +48,27 @@ exports.getAllProfiles = (req, res) => {
       res.status(200).json(profiles)
     })
     .catch(err => console.error('Error getting all profile', err))
+}
+
+exports.getCurrentProfile = (req, res) => {
+  let profileId = ''
+  userModel
+    .findById(res.locals.user._id)
+    // .populate('mychannels')
+    .then(user => {
+      profileId = user.profile
+      profileModel
+        .findById(profileId)
+        .then(profile => {
+          console.log('PROFILE => ', profile)
+          res.status(200).json(profile)
+        })
+        .catch(err => {
+          res.status(500).json({ msg: 'Error getting profile', err })
+        })
+    })
+    .catch(err => {
+      res.status(500).json({ msg: 'Error getting user', err })
+    })
+  
 }

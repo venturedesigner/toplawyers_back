@@ -7,7 +7,7 @@ exports.updateProfile = (req, res) => {
     .then(profile => {
       if (profile.user_id.equals(res.locals.user._id)) {
         console.log('They are equals')
-        if (req.body.profilepic) { profile.profilepic = req.body.profilepic }
+        if (req.body.name) { profile.name = req.body.name }
         if (req.body.profilevideo) { profile.profilevideo = req.body.profilevideo }
         if (req.body.description) { profile.description = req.body.description }
         if (req.body.languages) { profile.languages = req.body.languages }
@@ -49,7 +49,7 @@ exports.updateCurrentProfile = (req, res) => {
       profileModel
         .findById(profileId)
         .then(profile => {
-          if (req.body.profilepic) { profile.profilepic = req.body.profilepic }
+          if (req.body.name) { profile.name = req.body.name }
           if (req.body.profilevideo) { profile.profilevideo = req.body.profilevideo }
           if (req.body.description) { profile.description = req.body.description }
           if (req.body.languages) { profile.languages = req.body.languages }

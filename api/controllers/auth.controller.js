@@ -8,7 +8,7 @@ exports.login = (req, res) => {
     .findOne({ email: req.body.email })
     .then(user => {
       if (!user) {
-        return res.json({ error: 'Wrong ' })
+        return res.json({ error: 'Wrong email or password' })
       }
       bcrypt.compare(req.body.password, user.password,
         (err, result) => {

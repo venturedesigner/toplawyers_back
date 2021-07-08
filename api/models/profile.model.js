@@ -6,6 +6,7 @@ const profileSchema = new mongoose.Schema({
     ref: 'User'
   },
   name: String,
+  title: String,
   profilevideo: String,
   description: String,
   skills: [String],

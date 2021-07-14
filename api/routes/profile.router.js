@@ -4,11 +4,13 @@ const {
   updateProfile,
   getAllProfiles,
   getCurrentProfile,
-  updateCurrentProfile
+  updateCurrentProfile,
+  getProfileByUserName
 } = require('../controllers/profile.controller')
 
 const router = require('express').Router()
 
+router.get('/:username', getProfileByUserName)
 router.get('/current', checkAuth, getCurrentProfile)
 router.post('/current', checkAuth, updateCurrentProfile)
 router.post('/:profileId', checkAuth, updateProfile)

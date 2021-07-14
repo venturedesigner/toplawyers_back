@@ -39,7 +39,6 @@ exports.updateProfile = (req, res) => {
 }
 
 exports.updateCurrentProfile = (req, res) => {
-  console.log('Arrrgg')
   let profileId = ''
   userModel
     .findById(res.locals.user._id)
@@ -71,23 +70,20 @@ exports.updateCurrentProfile = (req, res) => {
             .catch(err => {
               res.status(401).json({ msg: 'An error ocurred trying to save your profile info', err })
             })
-          
         })
         .catch(err => {
           res.status(500).json({ msg: 'An error ocurred trying to update your profile', err })
         })
-
     })
     .catch(err => {
       res.status(500).json({ msg: 'Error getting user', err })
     })
-  
 }
 
 exports.getAllProfiles = (req, res) => {
   profileModel
     .find()
-    .populate({ path: 'user_id', select: 'avatar' })
+    .populate({ path: 'user_id', select: 'avatar username' })
     .select('name description skills education experience profilevideo')
     .then(profiles => {
       console.log(profiles)
@@ -100,7 +96,6 @@ exports.getCurrentProfile = (req, res) => {
   let profileId = ''
   userModel
     .findById(res.locals.user._id)
-    // .populate('mychannels')
     .then(user => {
       profileId = user.profile
       profileModel
@@ -116,5 +111,16 @@ exports.getCurrentProfile = (req, res) => {
     .catch(err => {
       res.status(500).json({ msg: 'Error getting user', err })
     })
-  
+}
+
+exports.getProfileByUserName = (req, res) => {
+  userModel
+    .findOne({ username: req.params.username })
+    .populate({ path: 'profile', select: 'name profilevideo education experience description skills' })
+    .then(user => {
+      res.status(200).json(user)
+    })
+    .catch(err => {
+      res.status(500).json({ msg: 'Error getting user', err })
+    })
 }

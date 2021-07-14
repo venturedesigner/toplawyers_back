@@ -10,9 +10,9 @@ const {
 
 const router = require('express').Router()
 
-router.get('/:username', getProfileByUserName)
 router.get('/current', checkAuth, getCurrentProfile)
 router.post('/current', checkAuth, updateCurrentProfile)
+router.get('/:username', getProfileByUserName)
 router.post('/:profileId', checkAuth, updateProfile)
 router.get('/', /* checkAuth, */ getAllProfiles)
 

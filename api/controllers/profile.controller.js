@@ -116,7 +116,7 @@ exports.getCurrentProfile = (req, res) => {
 exports.getProfileByUserName = (req, res) => {
   userModel
     .findOne({ username: req.params.username })
-    .populate({ path: 'profile', select: 'name profilevideo education experience description skills' })
+    .populate({ path: 'profile', select: 'name profilevideo education experience description skills languages' })
     .then(user => {
       res.status(200).json(user)
     })

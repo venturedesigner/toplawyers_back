@@ -14,6 +14,6 @@ router.get('/current', checkAuth, getCurrentProfile)
 router.post('/current', checkAuth, updateCurrentProfile)
 router.get('/:username', getProfileByUserName)
 router.post('/:profileId', checkAuth, updateProfile)
-router.get('/', /* checkAuth, */ getAllProfiles)
+router.get('/', getAllProfiles)
 
 exports.profileRouter = router

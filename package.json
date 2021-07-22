@@ -1,7 +1,7 @@
 {
-  "name": "emitus_back",
+  "name": "topdev_back",
   "version": "1.0.0",
-  "description": "Backend for emitus project",
+  "description": "Backend for topdev project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/abako/emitus_back.git"
+    "url": "git+ssh://git@github.com:venturedesigner/toplawyers_back.git"
   },
   "author": "Carlos Cardona",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/abako/emitus_back#readme",
+  "homepage": "https://github.com/venturedesigner/toplawyers_back/blob/main/README.md",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
@@ -22,6 +22,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.0",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.9"
+    "nodemon": "^2.0.9",
+    "dayjs": "^1.10.6"
   }
 }

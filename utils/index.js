@@ -52,14 +52,12 @@ exports.isAdmin = (req, res, next) => {
   }
 }
 
-exports.isSubscriber = (req, res, next) => {
-  const idChannel = req.params.channelId
-  if (res.locals.user.channelsfollowed.includes(idChannel)) {
-    console.log('User is subcribed to channel')
-    next()
-  } else {
-    res.status(400).json({ err: 'User is not a subscriber to this channel' })
-  }
+exports.isPayed = (req, res, next) => {
+  // if (true) {
+  next()
+  // } else {
+  //   res.status(400).json({ err: 'Booking is not paid yet' })
+  // }
 }
 
 exports.uniqueUsername = async (req, res, next) => {

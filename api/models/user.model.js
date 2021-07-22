@@ -41,7 +41,7 @@ const userSchema = new mongoose.Schema({
   phone: String,
   typeofuser: {
     type: String,
-    enum: ['Moderator', 'Creator', 'User', 'Admin'],
+    enum: ['User', 'Admin'],
     default: 'User'
   },
   profile: {
@@ -52,13 +52,25 @@ const userSchema = new mongoose.Schema({
   verified: Boolean,
   timezone: {
     zone: String, // Atlantic/Azores
-    hour: String // GMT-1
+    timezone_offset: String // GMT-1
   },
   avatar: {
     type: String,
     default: 'https://emituscdn.com/avatar.svg'
   },
-  IBAN: String
+  IBAN: String,
+  bookinngs: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Booking'
+  }],
+  calendar: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Calendar'
+  },
+  overwrites: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Overwrite'
+  }],
 })
 
 exports.userModel = mongoose.model('User', userSchema)

@@ -1,10 +1,10 @@
 const mongoose = require('mongoose')
 
 const bookingTypesSchema = new mongoose.Schema({
-  profile: [{
+  profile:{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Profile'
-  }],
+  },
   duration: Number,
   price: Number,
   availability: {

@@ -8,9 +8,10 @@ exports.getBookingTypeByProfileId = (req, res) => {
       res.status(200).json(bookingTypes);
     })
     .catch((err) => console.error("Error getting bookings", err));
-};
+}
 
 exports.updateOrCreateBookingTypes = (req, res) => {
+  console.log('<<<<<<<<<<<<<<<<<<<<<< updateOrCreateBookingTypes >>>>>>>>>>>>>>>>>>>>')
   if (req.body._id !== undefined) {
     bookingTypesModel
       .findByIdAndUpdate(req.body._id, req.body, { new: true })
@@ -25,12 +26,12 @@ exports.updateOrCreateBookingTypes = (req, res) => {
       })
       .catch((err) => res.json(err));
   } else {
-    console.log('ADD')
     addBookingTypes (req, res)
     }
 }
 
 addBookingTypes = (req, res) => {
+  console.log('<<<<<<<<<<<<<<<<<<<<<< addBookingTypes >>>>>>>>>>>>>>>>>>>>')
   bookingTypesModel
     .create({
       profile: req.body.profile,
@@ -45,3 +46,13 @@ addBookingTypes = (req, res) => {
       res.status(401).json({ msg: 'An error ocurred trying to create booking types', err })
     })
 }
+
+exports.deleteBookingTypeById = (req, res) => {
+  bookingTypesModel
+    .findByIdAndDelete(req.params.id)
+    .then(bookingTypes => {
+      // res.status(200).send(bookingTypes + ' has been deleted');
+      console.log('borrado')
+    })
+    res.status(401).json({ msg: 'An error ocurred trying to delete booking types' })
+};

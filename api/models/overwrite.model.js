@@ -7,8 +7,7 @@ const overwriteSchema = new mongoose.Schema({
     required: true
   },
   date: {
-    type: Date,
-    unique: true
+    type: Date
   },
   blocks: [{ // monday
     start: {

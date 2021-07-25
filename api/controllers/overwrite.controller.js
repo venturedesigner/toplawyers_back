@@ -15,7 +15,7 @@ exports.newOverwrite = (req, res) => {
   console.log('--> newOverwrite', newOverwrite)
 
   overwriteModel
-    .deleteOne({date: newOverwrite.date})
+    .deleteOne({ date: newOverwrite.date, user_id: res.locals.user._id })
     .then(() => {
       overwriteModel
         .create(newOverwrite)
@@ -32,13 +32,11 @@ exports.newOverwrite = (req, res) => {
                   res.status(200).json(overwrite)
                 })
             })
-          
         })
         .catch(err => {
           res.status(500).json({ msg: 'An error ocurred trying to save overwrite', err })
         })
     })
-
 }
 
 exports.getMyOverwrites = (req, res) => {

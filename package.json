@@ -17,12 +17,14 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
+    "dayjs": "^1.10.6",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.9",
-    "dayjs": "^1.10.6"
+    "twilio": "^3.66.0",
+    "twilio-video": "^2.8.0"
   }
 }

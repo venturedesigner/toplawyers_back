@@ -5,6 +5,7 @@ const { bookingTypesRouter } = require('./bookingTypes.router')
 const { calendarRouter } = require('./calendar.router')
 const { bookingRouter } = require('./booking.router')
 const { overwriteRouter } = require('./overwrite.router')
+const { twilioRouter } = require('./twilio.router')
 
 const router = require('express').Router()
 
@@ -15,5 +16,6 @@ router.use('/bookingtypes', bookingTypesRouter)
 router.use('/calendars', calendarRouter)
 router.use('/bookings', bookingRouter)
 router.use('/overwrites', overwriteRouter)
+router.use('/twilio', twilioRouter)
 
 exports.router = router

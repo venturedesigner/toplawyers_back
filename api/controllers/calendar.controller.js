@@ -159,7 +159,7 @@ exports.getBlocksByWeek = async (req, res) => {
     const weekOverwrites = await overwriteModel
       .find({ date: { $gte: monday, $lte: sunday }, user_id: userId })
 
-    console.log('--> orderedBlocks', orderedBlocks.length, orderedBlocks)
+    // console.log('--> orderedBlocks', orderedBlocks.length, orderedBlocks)
     let filtered = [...orderedBlocks]
     if (weekOverwrites.length > 0) {
       for (let i = 0; i < weekOverwrites.length; i++) {
@@ -190,7 +190,7 @@ exports.getBlocksByWeek = async (req, res) => {
         })
       }
     }
-    console.log('--> filtered', filtered.length, filtered)
+    // console.log('--> filtered', filtered.length, filtered)
 
     // 4. user.bookings(filtrado por las fechas de la semana) --> Sobrescribo los bloques correspondientes.
     const weekBookings = await bookingModel
@@ -198,7 +198,7 @@ exports.getBlocksByWeek = async (req, res) => {
 
     // console.log('--> weekBookings', weekBookings)
     let finalBlocks = [...filtered]
-    console.log('--> finalBlocks', finalBlocks)
+    // console.log('--> finalBlocks', finalBlocks)
     if (weekBookings.length > 0) {
       for (let i = 0; i < weekBookings.length; i++) {
         const startBook = new Date(weekBookings[i].startBook)
@@ -213,14 +213,14 @@ exports.getBlocksByWeek = async (req, res) => {
             return false
           }
         })
-        console.log('--> filteredBlock', filteredBlock[0])
+        // console.log('--> filteredBlock', filteredBlock[0])
 
         const startBlock = new Date(filteredBlock[0].start)
         const endBlock = new Date(filteredBlock[0].end)
-        console.log('--> StartBlock', startBlock, endBlock)
+        // console.log('--> StartBlock', startBlock, endBlock)
 
         if (startBlock < startBook && endBlock > endBook) {
-          console.log('Es en la mitad')
+          // console.log('Es en la mitad')
           const allExceptFiltered = finalBlocks.filter(function (block) {
             if (dayjs(block.start).isSameOrBefore(dayjs(startBook)) && dayjs(block.end).isSameOrAfter(dayjs(endBook))) {
               return false
@@ -246,7 +246,7 @@ exports.getBlocksByWeek = async (req, res) => {
 
           // n
         } else if (endBlock > endBook) {
-          console.log('Es comenzando')
+          // console.log('Es comenzando')
           const allExceptFiltered = finalBlocks.filter(function (block) {
             if (dayjs(block.start).isSameOrBefore(dayjs(startBook)) && dayjs(block.end).isSameOrAfter(dayjs(endBook))) {
               return false
@@ -267,7 +267,7 @@ exports.getBlocksByWeek = async (req, res) => {
 
           // n
         } else if (startBlock < startBook) {
-          console.log('Es terminando')
+          // console.log('Es terminando')
           const allExceptFiltered = finalBlocks.filter(function (block) {
             if (dayjs(block.start).isSameOrBefore(dayjs(startBook)) && dayjs(block.end).isSameOrAfter(dayjs(endBook))) {
               return false

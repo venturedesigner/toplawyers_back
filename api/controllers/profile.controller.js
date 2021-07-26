@@ -19,7 +19,6 @@ exports.updateProfile = (req, res) => {
         if (req.body.github) { profile.github = req.body.github }
         if (req.body.tiktok) { profile.tiktok = req.body.tiktok }
         if (req.body.instagram) { profile.instagram = req.body.instagram }
-
         res.locals.profile = profile
 
         profile.save()
@@ -39,10 +38,10 @@ exports.updateProfile = (req, res) => {
 }
 
 exports.updateCurrentProfile = (req, res) => {
+  console.log('req.body.show => ', req.body.show)
   let profileId = ''
   userModel
     .findById(res.locals.user._id)
-    // .populate('mychannels')
     .then(user => {
       profileId = user.profile
       profileModel
@@ -60,7 +59,7 @@ exports.updateCurrentProfile = (req, res) => {
           if (req.body.github) { profile.github = req.body.github }
           if (req.body.tiktok) { profile.tiktok = req.body.tiktok }
           if (req.body.instagram) { profile.instagram = req.body.instagram }
-
+          profile.show = req.body.show
           res.locals.profile = profile
 
           profile.save()
@@ -82,7 +81,7 @@ exports.updateCurrentProfile = (req, res) => {
 
 exports.getAllProfiles = (req, res) => {
   profileModel
-    .find()
+    .find({ show: true })
     .populate({ path: 'user_id', select: 'avatar username' })
     .select('name description skills education experience profilevideo')
     .then(profiles => {
@@ -116,7 +115,7 @@ exports.getCurrentProfile = (req, res) => {
 exports.getProfileByUserName = (req, res) => {
   userModel
     .findOne({ username: req.params.username })
-    .populate({ path: 'profile', select: 'name profilevideo education experience description skills languages' })
+    .populate({ path: 'profile', select: 'name profilevideo education experience description skills languages', match: { show: true } })
     .then(user => {
       res.status(200).json(user)
     })
